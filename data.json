@@ -1,0 +1,910 @@
+configuring 1 controllers
+[81064,385852592] Translation OK
+[81064,391376007] Initiate Called - Connecting to PLC with address and parameters:
+[81064,391426562] { host: '172.16.19.77',
+  connection_name: 'DAQ_PLC',
+  port: 102,
+  slot: 2,
+  type: 'nodes7',
+  tagfile: 'lab_plcs.txt' }
+[81064,401990269] Connection cleanup is happening
+[81064,404278546 DAQ_PLC] Attempting to connect to host...
+[81085,403769195 DAQ_PLC] We Caught a connect error ETIMEDOUT
+[81085,404644594 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81085,405298008 DAQ_PLC] Adding DB99,INT0
+[81085,408868024 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81085,411315949 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81085,411786908] Processing an undefined packet, likely due to timeout error
+[81085,411936293] Timeout error - zero length packet
+[81085,411964801 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81085,905045993 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81085,905370229 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 0
+[81085,906911585 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81085,907010795] Processing an undefined packet, likely due to timeout error
+[81085,907054508] Timeout error - zero length packet
+[81085,907074273 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81085,907587425] Connection cleanup is happening
+[81085,908022654 DAQ_PLC] Attempting to connect to host...
+[81086,405951801 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81086,406065835 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81086,407931047 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81086,407981222] Processing an undefined packet, likely due to timeout error
+[81086,408013151] Timeout error - zero length packet
+[81086,408028736 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81086,906926410 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81086,907024859 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81086,908901854 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81086,908947468] Processing an undefined packet, likely due to timeout error
+[81086,908971415] Timeout error - zero length packet
+[81086,908984719 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81087,408050022 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81087,408147711 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81087,409919796 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81087,409968830] Processing an undefined packet, likely due to timeout error
+[81087,409990497] Timeout error - zero length packet
+[81087,410002660 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81087,908924661 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81087,909023871 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81087,910923293 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81087,910959403] Processing an undefined packet, likely due to timeout error
+[81087,910983351] Timeout error - zero length packet
+[81087,910997415 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81088,409930439 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81088,410024327 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81088,411910825 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81088,411947696] Processing an undefined packet, likely due to timeout error
+[81088,411975444] Timeout error - zero length packet
+[81088,411988748 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81088,910923673 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81088,911044929 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81088,912902159 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81088,912939410] Processing an undefined packet, likely due to timeout error
+[81088,912963357] Timeout error - zero length packet
+[81088,912976280 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81089,411968222 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81089,412064391 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81089,413936825 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81089,413979778] Processing an undefined packet, likely due to timeout error
+[81089,414024631] Timeout error - zero length packet
+[81089,414039835 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81089,912915843 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81089,913004789 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81089,914878744 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81089,914931959] Processing an undefined packet, likely due to timeout error
+[81089,914970351] Timeout error - zero length packet
+[81089,914996578 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81090,413925802 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81090,414041736 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81090,415908088 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81090,415950661] Processing an undefined packet, likely due to timeout error
+[81090,416336095] Timeout error - zero length packet
+[81090,416463813 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81090,914942222 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81090,915046373 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81090,916893720 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81090,917055648] Processing an undefined packet, likely due to timeout error
+[81090,917085677] Timeout error - zero length packet
+[81090,917100121 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81091,416058993 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81091,416167705 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81091,417865668 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81091,417923445] Processing an undefined packet, likely due to timeout error
+[81091,418408468] Timeout error - zero length packet
+[81091,418494374 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81091,918209670 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81091,918311160 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81091,919910293 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81091,919984415] Processing an undefined packet, likely due to timeout error
+[81091,920057016] Timeout error - zero length packet
+[81091,920092367 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81092,418912117 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81092,419004105 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81092,420901626 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81092,420947620] Processing an undefined packet, likely due to timeout error
+[81092,420977269] Timeout error - zero length packet
+[81092,421858370 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81092,920385053 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81092,920469438 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81092,922363539 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81092,922412954] Processing an undefined packet, likely due to timeout error
+[81092,922438421] Timeout error - zero length packet
+[81092,922451725 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81093,421188611 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81093,421286300 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81093,422867948 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81093,422909761] Processing an undefined packet, likely due to timeout error
+[81093,422931807] Timeout error - zero length packet
+[81093,422948912 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81093,922038543 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81093,922129390 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81093,923835335 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81093,926688459] Processing an undefined packet, likely due to timeout error
+[81093,926716588] Timeout error - zero length packet
+[81093,926728751 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81094,423880188 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81094,423980538 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81094,425861334 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81094,425903907] Processing an undefined packet, likely due to timeout error
+[81094,425924053] Timeout error - zero length packet
+[81094,425935076 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81094,924847194 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81094,924935380 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81094,925828265 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81094,925864755] Processing an undefined packet, likely due to timeout error
+[81094,926033906] Timeout error - zero length packet
+[81094,926049490 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81095,425866656 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81095,426142618 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81095,427911661 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81095,427956515] Processing an undefined packet, likely due to timeout error
+[81095,427979701] Timeout error - zero length packet
+[81095,427992245 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81095,926856469 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81095,926951877 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81095,927009654 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81095,927030941] Processing an undefined packet, likely due to timeout error
+[81095,927048426] Timeout error - zero length packet
+[81095,927058309 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81096,427857305 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81096,427951193 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81096,428018473 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81096,428038999] Processing an undefined packet, likely due to timeout error
+[81096,428055724] Timeout error - zero length packet
+[81096,428067127 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81096,928936065 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81096,929038695 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81096,931062034 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81096,931127033] Processing an undefined packet, likely due to timeout error
+[81096,931158963] Timeout error - zero length packet
+[81096,931196974 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81097,429843773 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81097,429930059 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81097,430835867 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81097,430874638] Processing an undefined packet, likely due to timeout error
+[81097,430894024] Timeout error - zero length packet
+[81097,430906568 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81097,930901626 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81097,930980310 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81097,932805610 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81097,932841341] Processing an undefined packet, likely due to timeout error
+[81097,932864527] Timeout error - zero length packet
+[81097,932875931 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81098,431853428 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81098,432280675 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81098,433980538 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81098,434028052] Processing an undefined packet, likely due to timeout error
+[81098,434048198] Timeout error - zero length packet
+[81098,434060361 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81098,932824996 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81098,932924585 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81098,933801125 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81098,933837996] Processing an undefined packet, likely due to timeout error
+[81098,933859282] Timeout error - zero length packet
+[81098,933870685 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81099,433815189 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81099,433908696 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81099,434802341 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81099,434828949] Processing an undefined packet, likely due to timeout error
+[81099,434848335] Timeout error - zero length packet
+[81099,434861639 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81099,934819446 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81099,934906492 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81099,935792914 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81099,935818382] Processing an undefined packet, likely due to timeout error
+[81099,937079975] Timeout error - zero length packet
+[81099,937102782 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81100,435817622 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81100,435907328 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81100,436804013 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81100,436843545] Processing an undefined packet, likely due to timeout error
+[81100,436864451] Timeout error - zero length packet
+[81100,436876615 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81100,936811616 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81100,936897521 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81100,937824235 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81100,937870609] Processing an undefined packet, likely due to timeout error
+[81100,938132887] Timeout error - zero length packet
+[81100,938159495 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81101,437980462 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81101,438091455 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81101,439787517 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81101,439828949] Processing an undefined packet, likely due to timeout error
+[81101,439849475] Timeout error - zero length packet
+[81101,439860118 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81101,938805686 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81101,938898433 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81101,939052759 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81101,939085829] Processing an undefined packet, likely due to timeout error
+[81101,939108636] Timeout error - zero length packet
+[81101,939121940 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81102,439793598 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81102,439881404 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81102,440789493 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81102,440845370] Processing an undefined packet, likely due to timeout error
+[81102,440867416] Timeout error - zero length packet
+[81102,440878440 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81102,940810019 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81102,940886802 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81102,941779686 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81102,941808575] Processing an undefined packet, likely due to timeout error
+[81102,941827200] Timeout error - zero length packet
+[81102,941837463 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81103,440807739 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81103,441556940 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81103,443070548 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81103,443110460] Processing an undefined packet, likely due to timeout error
+[81103,443138969] Timeout error - zero length packet
+[81103,443149232 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81103,941776645 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81103,941853048 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81103,942774441 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81103,942806750] Processing an undefined packet, likely due to timeout error
+[81103,942826896] Timeout error - zero length packet
+[81103,942837920 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81104,441780066 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81104,441875095 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81104,442763037 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81104,442798768] Processing an undefined packet, likely due to timeout error
+[81104,442818914] Timeout error - zero length packet
+[81104,442829937 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81104,941779686 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81104,941862551 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81104,942771780 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81104,942810932] Processing an undefined packet, likely due to timeout error
+[81104,942841341] Timeout error - zero length packet
+[81104,942851604 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81105,441807815 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81105,441893340 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81105,442763037 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81105,442800288] Processing an undefined packet, likely due to timeout error
+[81105,442824616] Timeout error - zero length packet
+[81105,442836019 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81105,941794891 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81105,941889919 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81105,942768359 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81105,942801809] Processing an undefined packet, likely due to timeout error
+[81105,942827656] Timeout error - zero length packet
+[81105,943074730 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81106,442983883 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81106,443071689 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81106,444758248 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81106,444800060] Processing an undefined packet, likely due to timeout error
+[81106,444824388] Timeout error - zero length packet
+[81106,444836931 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81106,908246921 DAQ_PLC] We Caught a connect error ETIMEDOUT
+[81106,942756956 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81106,942839820 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 0
+[81106,943738026 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81106,943770336] Processing an undefined packet, likely due to timeout error
+[81106,943790101] Timeout error - zero length packet
+[81106,943800364 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81106,943965333] Connection cleanup is happening
+[81106,944083548 DAQ_PLC] Attempting to connect to host...
+[81107,442808651 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81107,442906720 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81107,443727763 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81107,443755131] Processing an undefined packet, likely due to timeout error
+[81107,443774897] Timeout error - zero length packet
+[81107,443785160 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81107,942738330 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81107,942826896 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81107,943727763 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81107,943768435] Processing an undefined packet, likely due to timeout error
+[81107,943790862] Timeout error - zero length packet
+[81107,943801505 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81108,442746693 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81108,442840960 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81108,443737646 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81108,443774137] Processing an undefined packet, likely due to timeout error
+[81108,443794663] Timeout error - zero length packet
+[81108,443804926 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81108,942758856 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81108,942845902 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81108,943714459 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81108,943750950] Processing an undefined packet, likely due to timeout error
+[81108,943771856] Timeout error - zero length packet
+[81108,943783259 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81109,442750494 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81109,442832978 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81109,443736125 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81109,443776417] Processing an undefined packet, likely due to timeout error
+[81109,443797324] Timeout error - zero length packet
+[81109,443807967 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81109,942727687 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81109,942810171 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81109,943715979 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81109,943747149] Processing an undefined packet, likely due to timeout error
+[81109,943768815] Timeout error - zero length packet
+[81109,943779458 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81110,442738710 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81110,442831838 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81110,443726623 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81110,443767295] Processing an undefined packet, likely due to timeout error
+[81110,443786300] Timeout error - zero length packet
+[81110,443796183 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81110,942726166 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81110,942815873 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81110,943704956 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81110,943746008] Processing an undefined packet, likely due to timeout error
+[81110,943764254] Timeout error - zero length packet
+[81110,943774137 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81111,442721985 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81111,442824616 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81111,443707237 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81111,443751710] Processing an undefined packet, likely due to timeout error
+[81111,443770716] Timeout error - zero length packet
+[81111,443780218 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81111,942712102 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81111,942795727 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81111,943703816 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81111,943738786] Processing an undefined packet, likely due to timeout error
+[81111,943763113] Timeout error - zero length packet
+[81111,943773757 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81112,442733389 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81112,442841721 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81112,443692412 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81112,443733465] Processing an undefined packet, likely due to timeout error
+[81112,443752470] Timeout error - zero length packet
+[81112,443762353 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81112,942715903 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81112,942809411 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81112,943706097 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81112,943740687] Processing an undefined packet, likely due to timeout error
+[81112,943769195] Timeout error - zero length packet
+[81112,943782879 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81113,442702599 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81113,442811692 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81113,443671126 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81113,443705336] Processing an undefined packet, likely due to timeout error
+[81113,444850615] Timeout error - zero length packet
+[81113,444881404 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81113,944386878 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81113,944473544 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81113,945698646 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81113,945733617] Processing an undefined packet, likely due to timeout error
+[81113,945751482] Timeout error - zero length packet
+[81113,945761745 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81114,443734985 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81114,443816709 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81114,444682606 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81114,444727839] Processing an undefined packet, likely due to timeout error
+[81114,444745324] Timeout error - zero length packet
+[81114,444755207 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81114,943682530 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81114,943765014 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81114,944665500 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81114,944701991] Processing an undefined packet, likely due to timeout error
+[81114,944719857] Timeout error - zero length packet
+[81114,944729740 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81115,443687851 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81115,443771096 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81115,444667401 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81115,444718336] Processing an undefined packet, likely due to timeout error
+[81115,444755587] Timeout error - zero length packet
+[81115,444770792 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81115,943680249 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81115,943752850 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81115,944662460 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81115,944694009] Processing an undefined packet, likely due to timeout error
+[81115,944711114] Timeout error - zero length packet
+[81115,944720237 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81116,443701155 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81116,443780979 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81116,444667781 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81116,444707313] Processing an undefined packet, likely due to timeout error
+[81116,444727839] Timeout error - zero length packet
+[81116,444738102 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81116,944736201 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81116,944818306 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81116,945714231 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81116,945747681] Processing an undefined packet, likely due to timeout error
+[81116,945764786] Timeout error - zero length packet
+[81116,945774669 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81117,444686407 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81117,444776873 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81117,445668998 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81117,445732096] Processing an undefined packet, likely due to timeout error
+[81117,445751862] Timeout error - zero length packet
+[81117,445761745 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81117,945878059 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81117,945955602 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81117,946094724 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81117,946118671] Processing an undefined packet, likely due to timeout error
+[81117,946162764] Timeout error - zero length packet
+[81117,946177968 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81118,446780066 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81118,446859890 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81118,447658506 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81118,447690816] Processing an undefined packet, likely due to timeout error
+[81118,447708681] Timeout error - zero length packet
+[81118,447718564 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81118,946673255 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81118,946756880 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81118,947644062 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81118,947681313] Processing an undefined packet, likely due to timeout error
+[81118,947698418] Timeout error - zero length packet
+[81118,947708301 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81119,446672875 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81119,446759160 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81119,447650144 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81119,447684734] Processing an undefined packet, likely due to timeout error
+[81119,447701839] Timeout error - zero length packet
+[81119,447711722 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81119,946667933 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81119,946745856 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81119,947647483 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81119,947682073] Processing an undefined packet, likely due to timeout error
+[81119,947704120] Timeout error - zero length packet
+[81119,947714383 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81120,446648547 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81120,446755359 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81120,447627337 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81120,447678272] Processing an undefined packet, likely due to timeout error
+[81120,447705640] Timeout error - zero length packet
+[81120,447723506 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81120,946658430 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81120,946752698 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81120,947657746 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81120,947700699] Processing an undefined packet, likely due to timeout error
+[81120,947721605] Timeout error - zero length packet
+[81120,947732628 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81121,446685798 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81121,446774745 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81121,447636460 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81121,447673711] Processing an undefined packet, likely due to timeout error
+[81121,447691196] Timeout error - zero length packet
+[81121,447701079 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81121,947650524 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81121,947727687 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81121,948622852 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81121,948666565] Processing an undefined packet, likely due to timeout error
+[81121,948684050] Timeout error - zero length packet
+[81121,948695073 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81122,447628097 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81122,447712482 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81122,448615630 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81122,448660103] Processing an undefined packet, likely due to timeout error
+[81122,448677968] Timeout error - zero length packet
+[81122,448722061 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81122,947612133 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81122,947707541 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81122,948586741 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81122,948620191] Processing an undefined packet, likely due to timeout error
+[81122,948637296] Timeout error - zero length packet
+[81122,948647179 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81123,447608332 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81123,447693097 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81123,448587121 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81123,448617150] Processing an undefined packet, likely due to timeout error
+[81123,448634635] Timeout error - zero length packet
+[81123,448645659 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81123,947612133 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81123,947684734 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81123,948604226 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81123,948646039] Processing an undefined packet, likely due to timeout error
+[81123,948662764] Timeout error - zero length packet
+[81123,948671886 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81124,447632279 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81124,447716664 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81124,448604606 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81124,448638436] Processing an undefined packet, likely due to timeout error
+[81124,448664284] Timeout error - zero length packet
+[81124,448674547 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81124,947622776 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81124,947705260 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81124,948598525 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81124,948640337] Processing an undefined packet, likely due to timeout error
+[81124,948658963] Timeout error - zero length packet
+[81124,948669226 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81125,447650144 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81125,447738710 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81125,448565455 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81125,448597384] Processing an undefined packet, likely due to timeout error
+[81125,448613349] Timeout error - zero length packet
+[81125,448622472 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81125,947596548 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81125,947684354 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81125,948554432 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81125,948577618] Processing an undefined packet, likely due to timeout error
+[81125,948596624] Timeout error - zero length packet
+[81125,948608027 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81126,447603770 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81126,447686635 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81126,448577238 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81126,448629314] Processing an undefined packet, likely due to timeout error
+[81126,448647939] Timeout error - zero length packet
+[81126,448657822 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81126,947600729 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81126,947682834 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81126,948570396 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81126,948616390] Processing an undefined packet, likely due to timeout error
+[81126,948633875] Timeout error - zero length packet
+[81126,948643758 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81127,447592747 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81127,447675992 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81127,448576858 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81127,448620951] Processing an undefined packet, likely due to timeout error
+[81127,448639957] Timeout error - zero length packet
+[81127,448651740 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81127,947566899 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81127,947641021 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81127,948549490 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81127,948591303] Processing an undefined packet, likely due to timeout error
+[81127,948634255] Timeout error - zero length packet
+[81127,948657062 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81127,948901474 DAQ_PLC] We Caught a connect error ETIMEDOUT
+[81128,447580203 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81128,447665729 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 0
+[81128,448565455 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81128,448604987] Processing an undefined packet, likely due to timeout error
+[81128,448625133] Timeout error - zero length packet
+[81128,448635396 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81128,448798464] Connection cleanup is happening
+[81128,448899954 DAQ_PLC] Attempting to connect to host...
+[81128,947568420 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81128,947650524 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81128,948551391 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81128,948585221] Processing an undefined packet, likely due to timeout error
+[81128,948604987] Timeout error - zero length packet
+[81128,948614870 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81129,447584765 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81129,447674471 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81129,448558613 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81129,448600425] Processing an undefined packet, likely due to timeout error
+[81129,448620571] Timeout error - zero length packet
+[81129,448631214 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81129,947561958 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81129,947643302 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81129,948528584 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81129,948571537] Processing an undefined packet, likely due to timeout error
+[81129,948592443] Timeout error - zero length packet
+[81129,948603086 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81130,447542952 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81130,447634559 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81130,448534286 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81130,448567355] Processing an undefined packet, likely due to timeout error
+[81130,448588642] Timeout error - zero length packet
+[81130,448598905 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81130,947574882 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81130,947657366 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81130,948545309 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81130,948587121] Processing an undefined packet, likely due to timeout error
+[81130,948604226] Timeout error - zero length packet
+[81130,948614109 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81131,447555876 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81131,447637980 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81131,448531245 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81131,448563934] Processing an undefined packet, likely due to timeout error
+[81131,448581800] Timeout error - zero length packet
+[81131,448592443 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81131,947554736 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81131,947628097 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81131,948526303 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81131,948558233] Processing an undefined packet, likely due to timeout error
+[81131,948576858] Timeout error - zero length packet
+[81131,948585981 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81132,447538391 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81132,447620875 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81132,448518321 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81132,448550630] Processing an undefined packet, likely due to timeout error
+[81132,448568876] Timeout error - zero length packet
+[81132,448579519 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81132,947535350 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81132,947616694 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81132,948519461 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81132,948564315] Processing an undefined packet, likely due to timeout error
+[81132,948583700] Timeout error - zero length packet
+[81132,948595104 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81133,447532689 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81133,447633799 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81133,448513760 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81133,448554812] Processing an undefined packet, likely due to timeout error
+[81133,448577238] Timeout error - zero length packet
+[81133,448587121 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81133,947528128 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81133,947608712 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81133,948511099 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81133,948551391] Processing an undefined packet, likely due to timeout error
+[81133,948567736] Timeout error - zero length packet
+[81133,948577618 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81134,447542952 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81134,447626197 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81134,448513760 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81134,448543788] Processing an undefined packet, likely due to timeout error
+[81134,448562414] Timeout error - zero length packet
+[81134,448574197 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81134,947589326 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81134,947682834 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81134,948508438 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81134,948555192] Processing an undefined packet, likely due to timeout error
+[81134,948574578] Timeout error - zero length packet
+[81134,948584461 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81135,447511023 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81135,447594267 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81135,448510719 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81135,448544929] Processing an undefined packet, likely due to timeout error
+[81135,448563934] Timeout error - zero length packet
+[81135,448574197 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81135,947523186 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81135,947595028 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81135,948489432 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81135,948528584] Processing an undefined packet, likely due to timeout error
+[81135,948544549] Timeout error - zero length packet
+[81135,948555952 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81136,447511023 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81136,447603010 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81136,448492093 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81136,448534286] Processing an undefined packet, likely due to timeout error
+[81136,448550630] Timeout error - zero length packet
+[81136,448560133 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81136,947523186 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81136,947601490 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81136,948503497 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81136,948537707] Processing an undefined packet, likely due to timeout error
+[81136,948555572] Timeout error - zero length packet
+[81136,948570016 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81137,447518245 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81137,447600729 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81137,448524023 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81137,448557473] Processing an undefined packet, likely due to timeout error
+[81137,448577238] Timeout error - zero length packet
+[81137,448587501 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81137,947509122 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81137,947595788 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81137,948487152 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81137,948527824] Processing an undefined packet, likely due to timeout error
+[81137,948544549] Timeout error - zero length packet
+[81137,948553291 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81138,447509502 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81138,447594648 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81138,448493614 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81138,448527824] Processing an undefined packet, likely due to timeout error
+[81138,448546069] Timeout error - zero length packet
+[81138,448556332 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81138,947502660 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81138,947600349 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81138,948484871 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81138,948525543] Processing an undefined packet, likely due to timeout error
+[81138,948543788] Timeout error - zero length packet
+[81138,948554052 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81139,447493538 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81139,447591987 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81139,448475368 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81139,448517181] Processing an undefined packet, likely due to timeout error
+[81139,448533525] Timeout error - zero length packet
+[81139,448543028 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81139,947475672 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81139,947569180 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81139,948447620 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81139,948471947] Processing an undefined packet, likely due to timeout error
+[81139,948487912] Timeout error - zero length packet
+[81139,948497795 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81140,447461228 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81140,447548274 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81140,448476128 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81140,448516040] Processing an undefined packet, likely due to timeout error
+[81140,448540367] Timeout error - zero length packet
+[81140,448551011 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81140,947463889 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81140,947555116 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81140,948457503 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81140,948499315] Processing an undefined packet, likely due to timeout error
+[81140,948517561] Timeout error - zero length packet
+[81140,948528204 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81141,447448304 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81141,447534590 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81141,448449901 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81141,448500076] Processing an undefined packet, likely due to timeout error
+[81141,448519461] Timeout error - zero length packet
+[81141,448532005 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81141,947485175 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81141,947559297 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81141,948460924 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81141,948495134] Processing an undefined packet, likely due to timeout error
+[81141,948514520] Timeout error - zero length packet
+[81141,948524403 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81142,447444503 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81142,447526227 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81142,448421772 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81142,448463965] Processing an undefined packet, likely due to timeout error
+[81142,448486011] Timeout error - zero length packet
+[81142,448497035 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81142,947464269 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81142,947537251 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81142,948449521 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81142,948493234] Processing an undefined packet, likely due to timeout error
+[81142,948510719] Timeout error - zero length packet
+[81142,948521742 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81143,447458947 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81143,447536490 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81143,448448380 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81143,448494754] Processing an undefined packet, likely due to timeout error
+[81143,448513760] Timeout error - zero length packet
+[81143,448522882 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81143,947507602 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81143,947580583 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81143,948448380 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81143,948483731] Processing an undefined packet, likely due to timeout error
+[81143,948505017] Timeout error - zero length packet
+[81143,948514900 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81144,447437281 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81144,447520526 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81144,448434696 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81144,448471947] Processing an undefined packet, likely due to timeout error
+[81144,448490193] Timeout error - zero length packet
+[81144,448501976 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81144,947434620 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81144,947519765 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81144,948421392 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81144,948459023] Processing an undefined packet, likely due to timeout error
+[81144,948477269] Timeout error - zero length packet
+[81144,948487152 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81145,447447164 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81145,447539151 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81145,448454842 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81145,448498175] Processing an undefined packet, likely due to timeout error
+[81145,448516420] Timeout error - zero length packet
+[81145,448525923 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81145,947435380 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81145,947510643 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81145,948421392 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81145,948454842] Processing an undefined packet, likely due to timeout error
+[81145,948474608] Timeout error - zero length packet
+[81145,948486391 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81146,447447544 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81146,447530789 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81146,448457123 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81146,448498175] Processing an undefined packet, likely due to timeout error
+[81146,448518701] Timeout error - zero length packet
+[81146,448533906 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81146,947486696 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81146,947582864 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81146,948409229 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81146,948438497] Processing an undefined packet, likely due to timeout error
+[81146,948455222] Timeout error - zero length packet
+[81146,948465865 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81147,447583624 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81147,447686635 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81147,448410369 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81147,448457123] Processing an undefined packet, likely due to timeout error
+[81147,448477269] Timeout error - zero length packet
+[81147,448488672 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81147,947409533 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81147,947633419 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81147,948463965 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81147,948498935] Processing an undefined packet, likely due to timeout error
+[81147,948519081] Timeout error - zero length packet
+[81147,948529344 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
+[81148,447570320 DAQ_PLC] Unable to read when not connected. Return bad values.
+[81148,447645583 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
+[81148,448376919 DAQ_PLC] READ TIMEOUT on sequence number 2
+[81148,448421012] Processing an undefined packet, likely due to timeout error
+[81148,448450281] Timeout error - zero length packet
+[81148,448469286 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
+{ MYTAG: 'BAD 255' }
