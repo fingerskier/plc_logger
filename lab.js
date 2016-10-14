@@ -20,7 +20,13 @@ config = {
 
 	/* Define one or more tags to be subscribed to */
 	tags : {
-		'MYTAG':{
+		'PT7919': {
+			tagsets:['status']
+		},
+		'PT7913': {
+			tagsets:['status']
+		},
+		'PV7913': {
 			tagsets:['status']
 		}	   
 	}
