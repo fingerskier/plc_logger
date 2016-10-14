@@ -1,11 +1,5 @@
 {
-	"PT7919": {
-		"tagsets":["status"]
-	},
-	"PT7913": {
-		"tagsets":["status"]
-	},
-	"PV7913": {
-		"tagsets":["status"]
-	}
+	"PT7919": { "tagsets":["status"] },
+	"PT7913": { "tagsets":["status"] },
+	"PV7913": { "tagsets":["status"] }
 }
