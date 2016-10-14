@@ -6,9 +6,7 @@ This tool requires [Node.js](www.nodejs.org) to run: It is free and used widely 
 This tool relies heavily on the [honcho] Node.js library: It is free and (by their admission) not proven robust enough for production usage (yet).
 
 Edit the _run.cmd_ file (or copy it) with the following format:
-<pre>
-	node index.js `<project_name> <IP_address> <output_file>`
-</pre>
+`node index.js <project_name> <IP_address> <output_file>`
 
 Look in _run.cmd_ for an example.
 
