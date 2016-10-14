@@ -7,7 +7,7 @@ This tool relies heavily on the [honcho] Node.js library: It is free and (by the
 
 Edit the _run.cmd_ file (or copy it) with the following format:
 <pre>
-	node index.js <id>project_name<\id> <id>IP_address<\id> <id>output_file<\id>
+	node index.js `<project_name> <IP_address> <output_file>`
 </pre>
 
 Look in _run.cmd_ for an example.
