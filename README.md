@@ -5,17 +5,17 @@ Logs PLC data
 This tool requires [Node.js](www.nodejs.org) to run: It is free and used widely in a variety of industries.
 This tool relies heavily on the [honcho] Node.js library: It is free and (by their admission) not proven robust enough for production usage (yet).
 
-Edit the <run.cmd> file (or copy it) with the following format:
+Edit the _run.cmd_ file (or copy it) with the following format:
 <pre>
-	node index.js <project_name> <IP_address> <output_file>
+	node index.js <<project_name>> <<IP_address>> <<output_file>>
 </pre>
 
-Look in <run.cmd> for an example.
+Look in _run.cmd_ for an example.
 
 
 There must be two files created for a project:
-	<project_name>.pts	|	This file contains a list of addresses of points that will be captured
-	<project_name>.json	|	This file contains a list of mappings of points that will be captured
+	_project_name_.pts	|	This file contains a list of addresses of points that will be captured
+	_project_name_.json	|	This file contains a list of mappings of points that will be captured
 
 
 Examples of valid point addresses:
