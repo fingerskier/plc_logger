@@ -1,1 +1,1 @@
-node lab.js 172.16.19.77 lab_plcs.txt > data.json
+node lab.js lab_plcs 172.16.19.77 > data.json

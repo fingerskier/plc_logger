@@ -1,7 +1,10 @@
-var IP = process.argv[2];
-var tag_file = process.argv[3];
-
+var filename = process.argv[2];
+var IP = process.argv[3];
+var frequency = process.argv[4] || 500;
 var honcho = require('honcho');
+var tag_file = filename + ".txt";
+var tag_set = require("./" + filename + ".json");
+
 
 config = {
 	defaultController: 'DAQ_PLC',
@@ -19,17 +22,7 @@ config = {
 	tagsets: ['status'],
 
 	/* Define one or more tags to be subscribed to */
-	tags : {
-		'PT7919': {
-			tagsets:['status']
-		},
-		'PT7913': {
-			tagsets:['status']
-		},
-		'PV7913': {
-			tagsets:['status']
-		}	   
-	}
+	tags: tag_set   
 };
 
 function readDone(err, vars) {
@@ -41,5 +34,5 @@ function readDone(err, vars) {
 }
 
 honcho.configure(config, function(){
-	honcho.createSubscription(['MYTAG'], readDone, 500);
+	honcho.createSubscription(['PT7919', 'PT7913', 'PV7913'], readDone, frequency);
 });
