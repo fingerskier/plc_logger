@@ -19,26 +19,22 @@ There must be two files created for a project:
 
 Examples of valid point addresses:
 
-`
-TEST1=M32.2		// Bit at M32.2
-TEST3=M20.0		// Bit at M20.0
-TEST4=DB1,REAL0.20		// Array of 20 values in DB1
-TEST5=DB1,REAL4		// Single real value
-TEST6=DB1,REAL8		// Another single real value
-TEST7=DB1,INT12.2
-`
+`TEST1=M32.2		// Bit at M32.2`
+`TEST3=M20.0		// Bit at M20.0`
+`TEST4=DB1,REAL0.20		// Array of 20 values in DB1`
+`TEST5=DB1,REAL4		// Single real value`
+`TEST6=DB1,REAL8		// Another single real value`
+`TEST7=DB1,INT12.2`
 
 Every point address must have a corresponding entry in the mappings files.
 
 Examples of valid point mappings:
 
-`
-{
-	"TEST1": { "tagsets":["status"] },
-	"TEST3": { "tagsets":["status"] },
-	"TEST4": { "tagsets":["status"] },
-	"TEST5": { "tagsets":["status"] },
-	"TEST6": { "tagsets":["status"] },
-	"TEST7": { "tagsets":["status"] }
-}
-`
+`{`
+`	"TEST1": { "tagsets":["status"] },`
+`	"TEST3": { "tagsets":["status"] },`
+`	"TEST4": { "tagsets":["status"] },`
+`	"TEST5": { "tagsets":["status"] },`
+`	"TEST6": { "tagsets":["status"] },`
+`	"TEST7": { "tagsets":["status"] }`
+`}`
