@@ -14,8 +14,10 @@ Look in _run.cmd_ for an example.  You can run this directly from the command-li
 
 There must be two files created for a project:
 
-|	_project-name_.pts	|	This file contains a list of addresses of points that will be captured	|
-|	_project-name_.json	|	This file contains a list of mappings of points that will be captured	|
+| File  | Description |
+| ------------- | ------------- |
+| _project-name_.pts  | This file contains a list of addresses of points that will be captured  |
+| _project-name_.json  | This file contains a list of mappings of points that will be captured  |
 
 
 Examples of valid point addresses:
