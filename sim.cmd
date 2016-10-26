@@ -1,0 +1,1 @@
+node snooper.js sim 192.168.0.1 > data.json

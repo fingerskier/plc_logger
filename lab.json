@@ -1,0 +1,8 @@
+{
+	"subscription": ["PT7919", "PT7913", "PV7913"],
+	"tagset":{
+		"PT7919": { "tagsets":["status"] },
+		"PT7913": { "tagsets":["status"] },
+		"PV7913": { "tagsets":["status"] }
+	}
+}
