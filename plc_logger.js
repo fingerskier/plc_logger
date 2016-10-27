@@ -1,72 +1,53 @@
-var fs = require('fs')
+var nodes7 = require('nodes7');
+var conn = new nodes7;
+var doneReading = false;
+var doneWriting = false;
 
-var project_name = process.argv[2] || 'plc_logger';
+var configuration = require('./' + process.argv[2])
 
-var configuration = require("./" + project_name + ".json");
+// slot 2 for 300/400, slot 1 for 1200/1500
+conn.initiateConnection(configuration.connection, connected);	// TODO: replace this with a setInterval
 
-console.log(configuration)
-
-var honcho = require('honcho');
-
-var frequency = configuration.Frequency || 500;
-var tag_file = project_name + ".pts";
-
-honcho.configure({
-	defaultController: configuration.Controller,
-	tagFileDir: '.',
-	controllers: [{
-		host: configuration.IP_Address,
-		connection_name: configuration.Connection_Name,
-		port: configuration.Port,
-		slot: configuration.Slot,	/* See NodeS7 docs - slot 1 for 1200/1500, slot 2 for 300 */
-		type: 'nodes7',
-		tagfile: tag_file
-	}],
-
-	tagsets: ['status'],	/* Define one or more tagsets to be subscribed to */
-
-	tags: configuration.Tag_Set	/* Define one or more tags to be subscribed to */
-},
-function(){
-	honcho.createSubscription(configuration.Subscription, readDone, frequency);
-});
-
-function readDone(err, vars) {
-	if (err) {
-		console.error(err);
+function connected(err) {
+	if (typeof(err) !== "undefined") {
+		// We have an error.  Maybe the PLC is not reachable.  
+		console.log(err);
+		process.exit();
 	}
 
-	console.log(vars);
+	conn.setTranslationCB(function(tag) {return configuration.tags[tag];});  // This sets the "translation" to allow us to work with object names
+	conn.addItems(Object.keys(configuration.tags));  
+//  conn.removeItems(['PT-7913', 'PV-7913']);  // We could do this.  
+//  conn.writeItems(['TEST5', 'TEST6'], [ 867.5309, 9 ], valuesWritten);  // You can write an array of items as well.  
+
+	setInterval(() => {
+		conn.readAllItems(valuesReady);
+	},
+	configuration.frequency);
 }
 
-/*
-CLI ~ node index.js project IP_address frequency
-	project = script will load project.json & project.pts
-	IP_address = duh
-	frequency = milliseconds between polls
+function valuesReady(anythingBad, values) {
+	if (anythingBad) {
+		console.log("SOMETHING WENT WRONG READING VALUES!!!!");
+	}
+	
+	console.log(values);
+	doneReading = true;
+	
+	if (doneWriting) {
+		process.exit();
+	}
+}
 
-    DOCS for 'honcho'
-    honcho.configure(config, callback)
-
-    Sets up the configuration and calls the callback when done. Please see above for configuration syntax.
-
-    honcho.findItem(item, callback)
-
-    Retuns the full "item" from the PLC driver in the callback.
-
-    honcho.read(tags, callback)
-
-    Reads specific tags and runs a callback with their values. Note the callback is called as callback(err, values).
-
-    honcho.write(tag, value, callback)
-
-    Writes a specific tag and runs an optional callback with the result.
-
-    honcho.createSubscription(tag array, callback, interval)
-
-    Sets up a subscription that will return the values of listed tags every timeout via the callback. Returns a token useful for removing subscriptions. Note the callback is called as callback(err, values).
-
-    honcho.removeSubscription(token)
-
-    Removes a subscription using a token returned when creating it.
-*/
+function valuesWritten(anythingBad) {
+	if (anythingBad) {
+		console.log("SOMETHING WENT WRONG WRITING VALUES!!!!");
+	}
+	
+	console.log("Done writing.");
+	doneWriting = true;
+	
+	if (doneReading) {
+		process.exit();
+	}
+}
