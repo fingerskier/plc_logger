@@ -1,7 +1,5 @@
 var nodes7 = require('nodes7');
 var conn = new nodes7;
-var doneReading = false;
-var doneWriting = false;
 
 var configuration = require('./' + process.argv[2])
 
@@ -32,11 +30,6 @@ function valuesReady(anythingBad, values) {
 	}
 	
 	console.log(values);
-	doneReading = true;
-	
-	if (doneWriting) {
-		process.exit();
-	}
 }
 
 function valuesWritten(anythingBad) {
@@ -45,9 +38,4 @@ function valuesWritten(anythingBad) {
 	}
 	
 	console.log("Done writing.");
-	doneWriting = true;
-	
-	if (doneReading) {
-		process.exit();
-	}
 }
