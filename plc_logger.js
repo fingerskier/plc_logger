@@ -1,3 +1,41 @@
+var fs = require('fs')
+
+var project_name = process.argv[2] || 'plc_logger';
+
+var configuration = require("./" + project_name + ".json");
+var honcho = require('honcho');
+
+var frequency = configuration.Frequency || 500;
+var tag_file = project_name + ".pts";
+
+honcho.configure({
+	defaultController: configuration.Controller,
+	tagFileDir: '.',
+	controllers: [{
+		host: configuration.IP_Address,
+		connection_name: configuration.Connection_Name,
+		port: configuration.Port,
+		slot: configuration.Slot,	/* See NodeS7 docs - slot 1 for 1200/1500, slot 2 for 300 */
+		type: 'nodes7',
+		tagfile: tag_file
+	}],
+
+	tagsets: ['status'],	/* Define one or more tagsets to be subscribed to */
+
+	tags: configuration.Tag_Set	/* Define one or more tags to be subscribed to */
+},
+function(){
+	honcho.createSubscription(configuration.Subscription, readDone, frequency);
+});
+
+function readDone(err, vars) {
+	if (err) {
+		console.error(err);
+	}
+
+	console.log(vars);
+}
+
 /*
 CLI ~ node index.js project IP_address frequency
 	project = script will load project.json & project.pts
@@ -29,39 +67,3 @@ CLI ~ node index.js project IP_address frequency
 
     Removes a subscription using a token returned when creating it.
 */
-
-var frequency = process.argv[3] || 500;
-var honcho = require('honcho');
-var project_name = process.argv[2];
-var tag_file = project_name + ".pts";
-
-var configuration = require("./" + project_name + ".json");
-
-
-honcho.configure({
-	defaultController: 'DAQ_PLC',
-	tagFileDir: '.',
-	controllers: [{
-		host: configuration.IP_Address,
-		connection_name: 'DAQ_PLC',
-		port: 102,
-		slot: 2,	/* See NodeS7 docs - slot 1 for 1200/1500, slot 2 for 300 */
-		type: 'nodes7',
-		tagfile: tag_file
-	}],
-
-	tagsets: ['status'],	/* Define one or more tagsets to be subscribed to */
-
-	tags: configuration.tag_set	/* Define one or more tags to be subscribed to */
-},
-function(){
-	honcho.createSubscription(configuration.subscription, readDone, frequency);
-});
-
-function readDone(err, vars) {
-	if (err) {
-		console.error(err);
-	}
-
-	console.log(vars);
-}

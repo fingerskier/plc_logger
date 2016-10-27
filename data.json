@@ -1,54 +1,51 @@
 configuring 1 controllers
-[6765,314738482] Translation OK
-[6765,322515204] Initiate Called - Connecting to PLC with address and parameters:
-[6765,323364375] { host: '172.16.19.77',
-  connection_name: 'DAQ_PLC',
+[11105,581816129] Translation OK
+[11105,588160276] Initiate Called - Connecting to PLC with address and parameters:
+[11105,588471972] { host: '172.16.19.77',
+  connection_name: 'RGH_PLC_Connection',
   port: 102,
-  slot: 2,
+  slot: 1,
   type: 'nodes7',
   tagfile: 'lab.pts' }
-[6765,334990497] Connection cleanup is happening
-[6765,338193705 DAQ_PLC] Attempting to connect to host...
-[6786,339744944 DAQ_PLC] We Caught a connect error ETIMEDOUT
-[6786,345791774 DAQ_PLC] Unable to read when not connected. Return bad values.
-[6786,347991485 DAQ_PLC] Adding DB1,REAL3218,DB1,REAL3030,DB1,INT4018
-[6786,354928158 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
-[6786,359146647 DAQ_PLC] READ TIMEOUT on sequence number 2
-[6786,361036186] Processing an undefined packet, likely due to timeout error
-[6786,362130150] Timeout error - zero length packet
-[6786,362992245 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
-[6786,363864223] Processing an undefined packet, likely due to timeout error
-[6786,366699102] Timeout error - zero length packet
-[6786,367523186 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
-[6786,368301277] Processing an undefined packet, likely due to timeout error
-[6786,369031473] Timeout error - zero length packet
-[6786,369805002 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
-{ PT7919: 'BAD 255', PT7913: 'BAD 255', PV7913: 'BAD 255' }
-[6786,847735289 DAQ_PLC] Unable to read when not connected. Return bad values.
-[6786,852414094 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 0
-[6786,854607723 DAQ_PLC] READ TIMEOUT on sequence number 2
-[6786,855448532] Processing an undefined packet, likely due to timeout error
-[6786,856284400] Timeout error - zero length packet
-[6786,857087958 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
-[6786,857918503] Processing an undefined packet, likely due to timeout error
-[6786,858655542] Timeout error - zero length packet
-[6786,859358750 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
-[6786,860088566] Processing an undefined packet, likely due to timeout error
-[6786,860887562] Timeout error - zero length packet
-[6786,861627641 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
-{ PT7919: 'BAD 255', PT7913: 'BAD 255', PV7913: 'BAD 255' }
-[6786,865735897] Connection cleanup is happening
-[6786,866886118 DAQ_PLC] Attempting to connect to host...
-[6787,348623612 DAQ_PLC] Unable to read when not connected. Return bad values.
-[6787,350218184 DAQ_PLC] Not Sending Read Packet because we are not connected - ISO CS is 1
-[6787,352585905 DAQ_PLC] READ TIMEOUT on sequence number 2
-[6787,355534058] Processing an undefined packet, likely due to timeout error
-[6787,356356621] Timeout error - zero length packet
-[6787,357444503 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
-[6787,358445719] Processing an undefined packet, likely due to timeout error
-[6787,359417287] Timeout error - zero length packet
-[6787,360271400 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
-[6787,361077238] Processing an undefined packet, likely due to timeout error
-[6787,362936749] Timeout error - zero length packet
-[6787,366292002 DAQ_PLC] Received a ZERO RESPONSE Processing Read Packet due to unrecoverable packet error
-{ PT7919: 'BAD 255', PT7913: 'BAD 255', PV7913: 'BAD 255' }
+[11105,590865567] Connection cleanup is happening
+[11105,593568577 RGH_PLC_Connection] Attempting to connect to host...
+[11105,597232902 RGH_PLC_Connection] TCP Connection Established to 172.16.19.77 on port 102
+[11105,597584130 RGH_PLC_Connection] Will attempt ISO-on-TCP connection
+[11105,605982428 RGH_PLC_Connection] ISO-on-TCP connection DISCONNECTED.
+Error: INVALID TAG FORMAT
+    at tagLookup (U:\plc_logger\node_modules\honcho\honcho.js:400:8)
+    at next (U:\plc_logger\node_modules\honcho\honcho.js:355:7)
+    at generateControllerPackets (U:\plc_logger\node_modules\honcho\honcho.js:372:3)
+    at Object.exports.createSubscription (U:\plc_logger\node_modules\honcho\honcho.js:239:3)
+    at U:\plc_logger\plc_logger.js:60:9
+    at done (U:\plc_logger\node_modules\honcho\honcho.js:76:5)
+    at next (U:\plc_logger\node_modules\honcho\honcho.js:86:7)
+    at NodeS7.connectCallback (U:\plc_logger\node_modules\honcho\honcho.js:83:9)
+    at NodeS7.onClientDisconnect (U:\plc_logger\node_modules\nodes7\nodeS7.js:1296:8)
+    at Socket.<anonymous> (U:\plc_logger\node_modules\nodes7\nodeS7.js:252:27)
+Error: INVALID TAG FORMAT
+    at tagLookup (U:\plc_logger\node_modules\honcho\honcho.js:400:8)
+    at next (U:\plc_logger\node_modules\honcho\honcho.js:355:7)
+    at U:\plc_logger\node_modules\honcho\honcho.js:366:16
+    at tagLookup (U:\plc_logger\node_modules\honcho\honcho.js:400:5)
+    at next (U:\plc_logger\node_modules\honcho\honcho.js:355:7)
+    at generateControllerPackets (U:\plc_logger\node_modules\honcho\honcho.js:372:3)
+    at Object.exports.createSubscription (U:\plc_logger\node_modules\honcho\honcho.js:239:3)
+    at U:\plc_logger\plc_logger.js:60:9
+    at done (U:\plc_logger\node_modules\honcho\honcho.js:76:5)
+    at next (U:\plc_logger\node_modules\honcho\honcho.js:86:7)
+Error: INVALID TAG FORMAT
+    at tagLookup (U:\plc_logger\node_modules\honcho\honcho.js:400:8)
+    at next (U:\plc_logger\node_modules\honcho\honcho.js:355:7)
+    at U:\plc_logger\node_modules\honcho\honcho.js:366:16
+    at tagLookup (U:\plc_logger\node_modules\honcho\honcho.js:400:5)
+    at next (U:\plc_logger\node_modules\honcho\honcho.js:355:7)
+    at U:\plc_logger\node_modules\honcho\honcho.js:366:16
+    at tagLookup (U:\plc_logger\node_modules\honcho\honcho.js:400:5)
+    at next (U:\plc_logger\node_modules\honcho\honcho.js:355:7)
+    at generateControllerPackets (U:\plc_logger\node_modules\honcho\honcho.js:372:3)
+    at Object.exports.createSubscription (U:\plc_logger\node_modules\honcho\honcho.js:239:3)
+[11105,609477981] ConnectionReset is happening
+[11105,610494033] Connection cleanup is happening
+[11107,112053082] ResetNOW is happening
+[11107,114259279] Clearing an earlier scheduled reset

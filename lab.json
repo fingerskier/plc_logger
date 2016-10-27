@@ -1,6 +1,21 @@
 {
-	"subscription": ["PT7919", "PT7913", "PV7913"],
-	"tagset":{
+	"Connection_Name": "RGH_PLC_Connection"
+	,
+	"Controller": "RGH_PLC"
+	,
+	"Frequency": 500
+	,
+	"IP_Address": "172.16.19.77"
+	,
+	"Port": 102
+	,
+	"Project_Name": "lab"
+	,
+	"Slot": 1
+	,
+	"Subscription": ["PT7919", "PT7913", "PV7913"]
+	,
+	"Tag_Set":{
 		"PT7919": { "tagsets":["status"] },
 		"PT7913": { "tagsets":["status"] },
 		"PV7913": { "tagsets":["status"] }
