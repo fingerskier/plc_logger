@@ -1,0 +1,18 @@
+{
+	"connection" : {
+		"port": 102,
+		"host": "172.16.19.17",
+		"rack": 0,
+		"slot": 2
+	}
+	,
+	"frequency" : 250
+	,
+	"tags" : {
+		"PT1": "IW256",
+		"PT2": "IW258",
+		"TT1": "IW260",
+		"TT2": "IW262",
+		"FQ1": "IW264"
+	}
+}

@@ -11,13 +11,13 @@
 	,
 	"Project_Name": "lab"
 	,
-	"Slot": 1
+	"Slot": 2
 	,
-	"Subscription": ["PT7919", "PT7913", "PV7913"]
+	"Subscription": ["PT-7919", "PT-7913", "PV-7913"]
 	,
 	"Tag_Set":{
-		"PT7919": { "tagsets":["status"] },
-		"PT7913": { "tagsets":["status"] },
-		"PV7913": { "tagsets":["status"] }
+		"PT-7919": { "tagsets":["status"] },
+		"PT-7913": { "tagsets":["status"] },
+		"PV-7913": { "tagsets":["status"] }
 	}
 }

@@ -1,0 +1,11 @@
+{
+	"variables":{
+		"PT-7919": "DB1,REAL3218",
+		"PT-7913": "DB1,REAL3030",
+		"PV-7913": "DB1,INT4018",
+		"TEST4": "DB1,REAL0.20",
+		"TEST5": "DB1,REAL4",
+		"TEST6": "DB1,REAL8",
+		"TEST7": "DB1,INT12.2"
+	}
+}

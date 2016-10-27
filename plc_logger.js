@@ -3,6 +3,9 @@ var fs = require('fs')
 var project_name = process.argv[2] || 'plc_logger';
 
 var configuration = require("./" + project_name + ".json");
+
+console.log(configuration)
+
 var honcho = require('honcho');
 
 var frequency = configuration.Frequency || 500;

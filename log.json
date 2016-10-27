@@ -13,7 +13,7 @@
 	,
 	"Slot": 2
 	,
-	"Subscription": ["PT7919", "PT7913", "PV7913"]
+	"Subscription": ["PT-7919", "PT7913", "PV7913"]
 	,
 	"Tag_Set":{
 		"PT7919": { "tagsets":["status"] },
