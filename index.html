@@ -1,15 +1,31 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>plc_logger</title>
+		<meta charset="UTF-8">
+
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+
+		<title>AFG PLC Logger</title>
 	</head>
 
 	<body>
-		<h1>PLC Logger</h1>
+		<header>
+			<h1>AFGlobal</h1>
+			<h2>PLC Logger</h2>
+		</header>
 
-		Node.js : <script>document.write(process.versions.node)</script>,
-		Chrome : <script>document.write(process.versions.chrome)</script>,
-		Electron : <script>document.write(process.versions.electron)</script>.
+		<!-- <webview id="content" nodeintegration plugins></webview> -->
+
+		<div id="content"></div>
+
+		<footer>
+			<a target="content" href="test.html" callback="test">Test Page</a>
+			<a target="About" href="about.html" callback="about">About Page</a>
+			<a target="content" href="open.html" callback="open">Open Config</a>
+			<a target="content" href="edit.html" callback="edit">Edit Config</a>
+		</footer>
+
+		<script src="renderer.js"></script>
 	</body>
 </html>
-e
